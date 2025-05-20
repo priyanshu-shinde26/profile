@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <!-- Profile Header -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <!-- Profile Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profile_image"
+                android:layout_width="78dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_img_priyanshu"
+                app:shapeAppearanceOverlay="@style/CircleImage" />
+
+            <LinearLayout
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Priyanshu Shinde"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="member since Dec, 2024"
+                    android:textColor="#888888"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_edit1" />
+
+        </LinearLayout>
+
+        <!-- Garage Section -->
+
+        <!-- CRED garage -->
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:background="#1C1C1C"
+            android:padding="30dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:src="@drawable/ic_car_24"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="get to know your vehicles, inside out\nCRED garage →"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#333333"
+            android:layout_marginBottom="16dp"/>
+
+        <!--CREDIT SCORE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_credit"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="credit score • REFRESH AVAILABLE"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="757 →"
+                android:textColor="#00BFFF"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#333333"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- LIFE TIME CASHBACK -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+            <ImageView
+                android:src="@drawable/ic_rupee"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lifetime Cashback"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+
+                android:text="30 →"
+                android:textColor="#00BFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#333333"
+            android:layout_marginBottom="16dp"/>
+<!-- BANK BALANCE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="50dp">
+            <ImageView
+                android:src="@drawable/ic_bankbalance"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVAILABLE Bank balance"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1200 →"
+                android:textColor="#00BFFF"
+                android:textSize="18sp"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+
+        <!-- Rewards Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUR REWARDS and BENEFITS"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- CASHBACK BALANCE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cashback balance"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ₹0"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <!-- COINS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="coins"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2690"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <!-- REFER AND EARN-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="win upto Rs 1000"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="refer and earn"
+                android:textColor="#00BFFF"/>
+        </LinearLayout>
+
+        <!-- TRANSACTIONS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TRANSACTIONS SUPPORT"
+            android:textColor="#888888"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- All Transactions -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="all transactions"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
